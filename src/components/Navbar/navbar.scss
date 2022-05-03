@@ -1,0 +1,63 @@
+.navbar {
+    padding: 25px 0;
+    background-color: rgb(18, 80, 39);
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &__logo {
+        color: #d1efef;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 25px;
+        font-family: 'Oleo Script Swash Caps', cursive;
+    }
+
+    &__toggle {
+        display: none;
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+        gap: 33px;
+    }
+
+    &__menu-link {
+        font-family: 'Fraunces', serif;
+        font-size: 18px;
+        color: #fff;
+        transition: 0.2s ease;
+        text-transform: capitalize;
+
+        &.active,
+        &:hover {
+            color: #d2bab0;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar {
+        &__toggle {
+            display: block;
+        }
+        &__menu {
+            display:none;
+
+            &--show {
+                padding-top: 25px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+                width: 100%;
+
+            }
+        }
+    }
+}

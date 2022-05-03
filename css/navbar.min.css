@@ -1,0 +1,72 @@
+.navbar {
+  padding: 25px 0;
+  background-color: rgb(18, 80, 39);
+}
+.navbar__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar__logo {
+  color: #d1efef;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+.navbar__toggle {
+  display: none;
+}
+.navbar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 33px;
+}
+.navbar__menu-link {
+  font-family: "Fraunces", serif;
+  font-size: 18px;
+  color: #fff;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+  text-transform: capitalize;
+}
+.navbar__menu-link.active, .navbar__menu-link:hover {
+  color: #d2bab0;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__toggle {
+    display: block;
+  }
+  .navbar__menu {
+    display: none;
+  }
+  .navbar__menu--show {
+    padding-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 15px;
+    width: 100%;
+  }
+}

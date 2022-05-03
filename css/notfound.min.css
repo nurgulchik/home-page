@@ -1,0 +1,11 @@
+.notfound {
+  color: rgb(237, 66, 66);
+  text-align: center;
+}
+.notfound__title {
+  padding-top: 50px;
+  font-size: 100px;
+}
+.notfound___subtitle {
+  font-size: 100px;
+}
