@@ -13,9 +13,9 @@ function Home() {
   useEffect(() => {
       init(animatedTextRef.current, {
         showCursor: true,
-        strings: ['Frontend React Developer'],
-        backDelay:  1500,
-        backSpeed:  60,
+        strings: ['Frontend React Developer 💻'],
+        backDelay:  1600,
+        backSpeed:  100,
       });
   }, []); 
   

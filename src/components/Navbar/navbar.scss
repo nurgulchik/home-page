@@ -1,6 +1,6 @@
 .navbar {
     padding: 25px 0;
-    background-color: rgb(18, 80, 39);
+    background-color: rgb(10, 57, 26);
 
     &__container {
         display: flex;
@@ -10,7 +10,7 @@
     }
 
     &__logo {
-        color: #d1efef;
+        color: #ebccda;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 25px;
@@ -36,7 +36,7 @@
 
         &.active,
         &:hover {
-            color: #d2bab0;
+            color: #e3f08e;
         }
     }
 }

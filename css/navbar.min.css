@@ -1,6 +1,6 @@
 .navbar {
   padding: 25px 0;
-  background-color: rgb(18, 80, 39);
+  background-color: rgb(10, 57, 26);
 }
 .navbar__container {
   display: -webkit-box;
@@ -16,7 +16,7 @@
           align-items: center;
 }
 .navbar__logo {
-  color: #d1efef;
+  color: #ebccda;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 25px;
@@ -44,7 +44,7 @@
   text-transform: capitalize;
 }
 .navbar__menu-link.active, .navbar__menu-link:hover {
-  color: #d2bab0;
+  color: #e3f08e;
 }
 
 @media screen and (max-width: 768px) {
