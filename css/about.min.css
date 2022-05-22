@@ -57,6 +57,7 @@
 .about__portfolio li {
   position: relative;
   width: 30%;
+  margin-bottom: 20px;
 }
 .about__portfolio li h4 {
   position: absolute;

@@ -6,7 +6,7 @@ import { Pagination } from '../../components';
 function Blog() {
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostsPerPage] = useState(10);
+  const [postsPerPage] = useState(10);
 
 
   useEffect(() => {
